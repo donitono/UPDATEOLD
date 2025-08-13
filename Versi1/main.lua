@@ -1280,7 +1280,7 @@ local function ApplyPreset(presetName)
         autoRecastDelay = 2.0
         perfectCast = false
         safeMode = false
-        autoSellThreshold = 5
+        autoSellThreshold = 10000
         autoSellOnThreshold = globalAutoSellEnabled  -- Use global setting
         NotifySuccess("Preset Applied", "Beginner mode activated - Safe and easy settings" .. (globalAutoSellEnabled and " (Auto Sell: ON)" or " (Auto Sell: OFF)"))
         
@@ -1288,7 +1288,7 @@ local function ApplyPreset(presetName)
         autoRecastDelay = 0.5
         perfectCast = true
         safeMode = false
-        autoSellThreshold = 20
+        autoSellThreshold = 10000
         autoSellOnThreshold = globalAutoSellEnabled  -- Use global setting
         NotifySuccess("Preset Applied", "Speed mode activated - Maximum fishing speed" .. (globalAutoSellEnabled and " (Auto Sell: ON)" or " (Auto Sell: OFF)"))
         
@@ -1296,7 +1296,7 @@ local function ApplyPreset(presetName)
         autoRecastDelay = 1.0
         perfectCast = true
         safeMode = false
-        autoSellThreshold = 15
+        autoSellThreshold = 10000
         autoSellOnThreshold = globalAutoSellEnabled  -- Use global setting
         NotifySuccess("Preset Applied", "Profit mode activated - Optimized for maximum earnings" .. (globalAutoSellEnabled and " (Auto Sell: ON)" or " (Auto Sell: OFF)"))
         
@@ -1304,7 +1304,7 @@ local function ApplyPreset(presetName)
         autoRecastDelay = 1.5
         perfectCast = true
         safeMode = false
-        autoSellThreshold = 25
+        autoSellThreshold = 10000
         autoSellOnThreshold = globalAutoSellEnabled  -- Use global setting
         NotifySuccess("Preset Applied", "AFK mode activated - Safe for long sessions" .. (globalAutoSellEnabled and " (Auto Sell: ON)" or " (Auto Sell: OFF)"))
         
@@ -1313,7 +1313,7 @@ local function ApplyPreset(presetName)
         perfectCast = false
         safeMode = true
         safeModeChance = 70
-        autoSellThreshold = 18
+        autoSellThreshold = 10000
         autoSellOnThreshold = globalAutoSellEnabled
         NotifySuccess("Preset Applied", "Safe mode activated - Smart random casting (70% perfect, 30% normal)" .. (globalAutoSellEnabled and " (Auto Sell: ON)" or " (Auto Sell: OFF)"))
         
@@ -1325,7 +1325,7 @@ local function ApplyPreset(presetName)
         hybridPerfectChance = 75
         hybridMinDelay = 1.0
         hybridMaxDelay = 2.8
-        autoSellThreshold = 20
+        autoSellThreshold = 10000
         autoSellOnThreshold = globalAutoSellEnabled
         NotifySuccess("Preset Applied", "🔒 HYBRID ULTIMATE MODE ACTIVATED!\n✅ Server Time Sync\n✅ Human-like AI Patterns\n✅ Anti-Detection Technology\n✅ Maximum Security" .. (globalAutoSellEnabled and "\n💰 Auto Sell: ON" or "\n💰 Auto Sell: OFF"))
         
